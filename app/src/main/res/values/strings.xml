@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">calculator_cgp</string>
+    <string name="enter_the_values">Enter the values</string>
+    <string name="mark1">mark1</string>
+    <string name="credit1">credit1</string>
+    <string name="calculate">Calculate</string>
+    <string name="textview">TextView</string>
+    <string name="mark2">mark2</string>
+    <string name="credit2">credit2</string>
+    <string name="mark3">mark3</string>
+    <string name="credit3">credit3</string>
+    <string name="mark4">mark4</string>
+    <string name="credit4">credit4</string>
+    <string name="mark5">mark5</string>
+    <string name="credit5">credit5</string>
+    <string name="Calculate1">Calculate</string>
+    <string name="sub_code">sub code</string>
+    <string name="sub_code1">sub code</string>
+</resources>

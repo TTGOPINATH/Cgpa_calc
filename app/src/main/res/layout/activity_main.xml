@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg2"
+    tools:context=".MainActivity">
+
+        <TextView
+            android:id="@+id/text1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="CGPA Calculator"
+            android:textAlignment="center"
+            android:textColor="#050505"
+            android:textSize="50dp"
+            android:fontFamily="cursive"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+        <EditText
+            android:id="@+id/sub1"
+            android:layout_width="109dp"
+            android:layout_height="53dp"
+            android:layout_marginTop="28dp"
+            android:layout_marginLeft="10dp"
+            android:ems="10"
+            android:hint="sub code1"
+            android:inputType="text"
+            android:textColor="#ffff"
+            android:textColorHint="@color/white"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/result" />
+
+    <EditText
+        android:id="@+id/mark1"
+        android:layout_width="109dp"
+        android:layout_height="53dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="28dp"
+        android:ems="10"
+        android:hint="Mark1"
+        android:inputType="number"
+        android:textColor="#ffff"
+        android:textColorHint="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.466"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/result" />
+
+    <EditText
+            android:id="@+id/credit1"
+            android:layout_width="109dp"
+            android:layout_height="53dp"
+            android:layout_marginTop="28dp"
+            android:layout_marginLeft="10dp"
+            android:ems="10"
+            android:hint="Credit1"
+            android:inputType="number"
+            android:textColor="#ffff"
+            android:textColorHint="@color/white"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.933"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/result" />
+
+    <EditText
+        android:id="@+id/sub2"
+        android:layout_width="109dp"
+        android:layout_height="53dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="16dp"
+        android:ems="10"
+        android:hint="sub code2"
+        android:inputType="text"
+        android:textColor="#ffff"
+        android:textColorHint="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/sub1" />
+
+    <EditText
+        android:id="@+id/mark2"
+        android:layout_width="109dp"
+        android:layout_height="53dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="16dp"
+        android:ems="10"
+        android:hint="Mark2"
+        android:inputType="number"
+        android:textColor="#ffff"
+        android:textColorHint="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.483"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mark1" />
+
+    <EditText
+        android:id="@+id/credit2"
+        android:layout_width="109dp"
+        android:layout_height="53dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="16dp"
+        android:ems="10"
+        android:hint="Credit2"
+        android:inputType="number"
+        android:textColor="#ffff"
+        android:textColorHint="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.937"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/credit1" />
+
+    <EditText
+            android:id="@+id/sub3"
+            android:layout_width="109dp"
+            android:layout_height="53dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginLeft="10dp"
+            android:ems="10"
+            android:hint="sub code3"
+            android:inputType="text"
+            android:textColor="#ffff"
+            android:textColorHint="@color/white"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/sub2" />
+
+    <EditText
+        android:id="@+id/mark3"
+        android:layout_width="109dp"
+        android:layout_height="53dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="16dp"
+        android:ems="10"
+        android:hint="Mark3"
+        android:inputType="number"
+        android:textColor="#ffff"
+        android:textColorHint="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.483"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mark2" />
+
+    <EditText
+        android:id="@+id/credit3"
+        android:layout_width="109dp"
+        android:layout_height="53dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="16dp"
+        android:ems="10"
+        android:hint="Credit3"
+        android:inputType="number"
+        android:textColor="#ffff"
+        android:textColorHint="#F6F0F0"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.947"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/credit2" />
+
+    <EditText
+            android:id="@+id/sub4"
+            android:layout_width="109dp"
+            android:layout_height="53dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginLeft="10dp"
+            android:ems="10"
+            android:hint="sub code4"
+            android:inputType="text"
+            android:textColor="#ffff"
+            android:textColorHint="@color/white"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/sub3" />
+
+    <EditText
+        android:id="@+id/mark4"
+        android:layout_width="109dp"
+        android:layout_height="53dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="12dp"
+        android:ems="10"
+        android:hint="Mark4"
+        android:inputType="number"
+        android:textColor="#ffff"
+        android:textColorHint="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.483"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mark3" />
+
+    <EditText
+        android:id="@+id/credit4"
+        android:layout_width="109dp"
+        android:layout_height="53dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="12dp"
+        android:ems="10"
+        android:hint="Credit4"
+        android:inputType="number"
+        android:textColor="#ffff"
+        android:textColorHint="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.95"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/credit3" />
+
+    <EditText
+            android:id="@+id/sub5"
+            android:layout_width="109dp"
+            android:layout_height="53dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginLeft="10dp"
+            android:ems="10"
+            android:hint="sub code5"
+            android:inputType="text"
+            android:textColor="#ffff"
+            android:textColorHint="@color/white"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/sub4" />
+
+    <EditText
+        android:id="@+id/mark5"
+        android:layout_width="109dp"
+        android:layout_height="53dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="16dp"
+        android:ems="10"
+        android:hint="Mark5"
+        android:inputType="number"
+        android:textColor="#ffff"
+        android:textColorHint="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.483"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mark4" />
+
+    <EditText
+        android:id="@+id/credit5"
+        android:layout_width="109dp"
+        android:layout_height="53dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:hint="Credit5"
+        android:inputType="number"
+        android:textColor="#ffff"
+        android:textColorHint="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.953"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/credit4" />
+
+    <TextView
+            android:id="@+id/result"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text=""
+            android:textColor="@color/black"
+        android:textAlignment="center"
+            android:textSize="50dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/text1" />
+
+    <Button
+        android:id="@+id/butn"
+        android:layout_width="218dp"
+        android:layout_height="67dp"
+        android:layout_marginTop="60dp"
+        android:text="Calculate"
+        android:textSize="25dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.513"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mark5" />
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
